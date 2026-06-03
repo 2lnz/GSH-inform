@@ -16,5 +16,14 @@
     "startTime": "",
     "endTime": "",
     "link": ""
+  },
+  {
+    "id": 3,
+    "title": "这是第一版",
+    "content": "欢迎使用课程表！",
+    "type": "once",
+    "startTime": "2026-06-01 00:00",
+    "endTime": "2026-06-30 23:59",
+    "link": ""
   }
 ]
