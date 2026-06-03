@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "title": "新版本发布",
-    "content": "课程表 v2.0 已发布，新增了许多功能呢",
+    "title": "2026.6.2，GSH课程表V1.0.1-beta发布",
+    "content": "初次见面，请多关照\nᕙ(  •̀ ᗜ •́  )ᕗ",
     "type": "once",
-    "startTime": "2026-06-01 00:00",
-    "endTime": "2026-06-30 23:59",
-    "link": "https://example.com"
+    "startTime": "",
+    "endTime": "",
+    "link": ""
   },
   {
     "id": 2,
@@ -16,14 +16,6 @@
     "startTime": "",
     "endTime": "",
     "link": ""
-  },
-  {
-    "id": 3,
-    "title": "这是第一版",
-    "content": "欢迎使用课程表！",
-    "type": "once",
-    "startTime": "2026-06-01 00:00",
-    "endTime": "2026-06-30 23:59",
-    "link": ""
+  }
   }
 ]
