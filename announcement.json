@@ -16,5 +16,14 @@
     "startTime": "",
     "endTime": "",
     "link": ""
+  },
+  {
+    "id": 3,
+    "title": "这条通知是用来测试的",
+    "content": "欢迎使用马嘉祺超绝课程表",
+    "type": "once",
+    "startTime": "2026-06-01",
+    "endTime": "2026-06-04",
+    "link": "https://bilibili.com"
   }
 ]
