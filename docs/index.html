@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GSH课程表 — Great Schedule Helper，你的银杏校园课表助手。一键导入课表，Material 3 设计，轻量省电。">
+  <meta property="og:title" content="GSH课程表 — Great Schedule Helper">
+  <meta property="og:description" content="你的银杏校园课表助手，一键导入，Material 3 设计，轻量省电。">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:type" content="website">
+  <title>GSH课程表 — Great Schedule Helper</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="glass nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">
+        <img src="assets/logo.png" alt="GSH" class="nav-logo-img">
+        <span>GSH课程表</span>
+      </a>
+      <div class="nav-links">
+        <a href="#hero" class="active">顶部</a>
+        <a href="#features">特性</a>
+        <a href="#screenshots">截图</a>
+        <a href="#download-section">下载</a>
+        <a href="#about">关于</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== Hero ====== -->
+  <section id="hero" class="hero">
+    <img src="assets/logo.png" alt="GSH课程表" class="hero-logo" width="88" height="88">
+    <h1 class="hero-title">GSH课程表</h1>
+    <p class="hero-subtitle">Great Schedule Helper — 你的银杏校园课表助手</p>
+    <a href="#download-section" class="btn-primary">前往下载</a>
+    <span class="hero-version">v1.0.1-beta · 免费开源</span>
+  </section>
+
+  <!-- ====== 大色块特性区 ====== -->
+  <section id="features" class="feature-blocks">
+    <!-- Block 1: 一键导入 -->
+    <div id="feature-1" class="feature-block feature-block--blue">
+      <div class="feature-block-inner">
+        <div class="feature-block-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none"><rect x="12" y="8" width="40" height="48" rx="4" stroke="white" stroke-width="2.5"/><path d="M28 38l-6-6m0 0l6-6m-6 6h20" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="feature-block-text">
+          <h2>一键导入课表</h2>
+          <p>支持银杏教务系统，登录即自动同步学期课程，无需手动录入，单双周自动识别。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Block 2: Material 3 UI -->
+    <div id="feature-2" class="feature-block feature-block--green">
+      <div class="feature-block-inner">
+        <div class="feature-block-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="22" stroke="white" stroke-width="2.5"/><circle cx="32" cy="32" r="10" stroke="white" stroke-width="2.5"/><path d="M32 10v10M32 44v10M10 32h10M44 32h10" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <div class="feature-block-text">
+          <h2>Material 3 现代化设计</h2>
+          <p>基于 Jetpack Compose + Material Design 3 打造，深色模式随心切换，流畅动画触手可及。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Block 3: 轻量省电 -->
+    <div id="feature-3" class="feature-block feature-block--orange">
+      <div class="feature-block-inner">
+        <div class="feature-block-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none"><path d="M38 10L24 34h10l-2 20 16-26H34l4-18z" stroke="white" stroke-width="2.5" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="feature-block-text">
+          <h2>轻量省电 · 桌面小部件</h2>
+          <p>无广告、无后台驻留、启动迅速。桌面小部件让你一眼看到今日课程，省心省电。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 截图区 ====== -->
+  <section id="screenshots" class="screenshots">
+    <h2>📱 应用截图</h2>
+    <div class="screenshots-row">
+      <div class="shot-group shot-left">
+        <div class="screenshot-card glass">
+          <img src="assets/001.jpg" alt="GSH课程表 截图一" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="screenshot-placeholder" style="display:none">001.png</div>
+        </div>
+        <div class="shot-label">课表周视图<br>课程一目了然</div>
+      </div>
+      <div class="shot-group shot-right">
+        <div class="shot-label">桌面小部件<br>今日课程随时看</div>
+        <div class="screenshot-card glass">
+          <img src="assets/002.jpg" alt="GSH课程表 截图二" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="screenshot-placeholder" style="display:none">002.png</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 下载 + 关于 并排 ====== -->
+  <section id="download-section" style="min-height:100vh;display:flex;align-items:center;justify-content:center;scroll-snap-align:start">
+    <div class="side-by-side-row" style="display:flex;gap:24px;width:100%;max-width:1100px;padding:40px 24px;align-items:stretch">
+      <div class="content-card glass" style="flex:1 1 0;min-width:0;margin:0;max-width:none">
+        <h1>📦 下载 GSH课程表</h1>
+        <div class="version-info">
+          <div class="version-item">
+            <div class="value">v1.0.1</div>
+            <div class="label">版本号 (beta)</div>
+          </div>
+          <div class="version-item">
+            <div class="value">~25 MB</div>
+            <div class="label">文件大小</div>
+          </div>
+          <div class="version-item">
+            <div class="value">Android</div>
+            <div class="label">平台</div>
+          </div>
+        </div>
+        <div class="download-actions">
+          <a href="https://github.com/2lnz/GSH_GreatSchedule/releases/latest" class="btn-primary" target="_blank" rel="noopener">从 GitHub Release 下载</a>
+          <a href="https://github.com/2lnz/GSH_GreatSchedule/releases" class="btn-outline" target="_blank" rel="noopener">查看历史版本</a>
+        </div>
+        <h2>更新日志</h2>
+        <ul class="changelog">
+          <li>适配银杏学院新版教务系统，一键导入课表</li>
+          <li>全面迁移至 Jetpack Compose + Material 3 设计语言</li>
+          <li>替换默认课程时间为银杏学院作息时间（15 节/天，20 周/学期）</li>
+          <li>新增公告推送功能，重要通知不再错过</li>
+          <li>优化桌面小部件，今日课程一目了然</li>
+          <li>默认关闭自动更新检查，减少后台请求</li>
+        </ul>
+      </div>
+      <div id="about" class="content-card glass" style="flex:1 1 0;min-width:0;margin:0;max-width:none">
+        <h1>ℹ️ 关于 GSH课程表</h1>
+        <h2>项目简介</h2>
+        <p>GSH课程表（Great Schedule Helper）是一款专为银杏学院学生打造的课表管理应用。基于 <a href="https://github.com/YZune/WakeUpSchedule" target="_blank" rel="noopener">WakeUpSchedule</a> 开源项目二次开发，适配银杏学院新版教务系统，提供一键导入、桌面小部件、深色模式等功能。</p>
+        <h2>致谢</h2>
+        <ul class="credits-list">
+          <li><strong>WakeUpSchedule</strong> — 原作者 <a href="https://github.com/YZune" target="_blank" rel="noopener">YZune</a>，开源课表框架</li>
+          <li><strong>北邮适配</strong> — <a href="https://github.com/wangxianfei2002" target="_blank" rel="noopener">王衔飞</a></li>
+          <li><strong>GSH 适配</strong> — <a href="https://github.com/2lnz" target="_blank" rel="noopener">2LNZ</a>，银杏学院适配与 Material 3 迁移</li>
+          <li><strong>早期贡献</strong> — <a href="https://github.com/xianfei" target="_blank" rel="noopener">xianfei</a></li>
+        </ul>
+        <h2>技术栈</h2>
+        <div class="tech-tags">
+          <span class="tech-tag">Kotlin</span>
+          <span class="tech-tag">Jetpack Compose</span>
+          <span class="tech-tag">Material 3</span>
+          <span class="tech-tag">Room</span>
+          <span class="tech-tag">Retrofit</span>
+          <span class="tech-tag">OkHttp</span>
+          <span class="tech-tag">MVVM</span>
+        </div>
+        <h2>许可证</h2>
+        <p>本项目基于 <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache License 2.0</a> 开源。</p>
+        <p>Copyright © 2019 YZune, 2020 xianfei, 2026 2LNZ</p>
+        <p style="margin-top:20px"><a href="https://github.com/2lnz/GSH_GreatSchedule" target="_blank" rel="noopener">GitHub 仓库 →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 GSH课程表 · Apache License 2.0</p>
+    <p>Powered by <a href="https://github.com/YZune/WakeUpSchedule" target="_blank" rel="noopener">WakeUpSchedule</a> · Made with ❤️</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
