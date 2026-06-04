@@ -1,0 +1,114 @@
+<resources>
+    <string name="icon_location" translatable="false"></string>
+    <string name="icon_back" translatable="false"></string>
+    <string name="icon_send" translatable="false"></string>
+    <string name="icon_share" translatable="false"></string>
+    <string name="icon_more" translatable="false"></string>
+    <string name="icon_close" translatable="false"></string>
+    <string name="icon_heart" translatable="false"></string>
+    <string name="icon_date" translatable="false"></string>
+    <string name="icon_delete" translatable="false"></string>
+    <string name="icon_upload" translatable="false"></string>
+    <string name="icon_clock" translatable="false"></string>
+    <string name="icon_setting" translatable="false"></string>
+    <string name="icon_search" translatable="false"></string>
+    <string name="icon_info" translatable="false"></string>
+    <string name="icon_refresh" translatable="false"></string>
+    <string name="icon_add" translatable="false"></string>
+    <string name="icon_done" translatable="false"></string>
+    <string name="icon_doc" translatable="false"></string>
+    <string name="icon_msg" translatable="false"></string>
+    <string name="icon_download" translatable="false"></string>
+    <string name="icon_star" translatable="false"></string>
+    <string name="icon_person" translatable="false"></string>
+    <string name="icon_nav" translatable="false"></string>
+
+
+    <string name="text_login_web_title">登录教务系统</string>
+    <string name="hint_student_id">学号</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_check_code">验证码</string>
+    <string name="toast_check_code_get_error">获取验证码失败</string>
+    <string name="text_login">登录</string>
+
+    <string name="text_node">节</string>
+    <string name="text_week">周</string>
+    <string name="appwidget_text">EXAMPLE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_widget">Add widget</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="school_BeijingLinYeDaXue">北京林业大学</string>
+    <string name="school_SuzhouDaXue">苏州大学</string>
+    <string name="school_GuangdongWaiYuWaiMaoDaXue">广东外语外贸大学</string>
+    <string name="school_DalianWaiGuoYuDaxue">大连外国语大学</string>
+    <string name="school_ChangchunDaXue">长春大学</string>
+    <string name="school_TianjinZhongYiYaoDaXue">天津中医药大学</string>
+    <string name="type_ZhengFang">正方教务</string>
+    <string name="type_NewZhengFang">新正方教务</string>
+
+    <string name="type_QiangZhi">强智教务</string>
+
+    <string name="error_course_data">检测到课程数据有误，请仔细核对</string>
+    <string name="error_course_node">有课程的节数大于课表的最大节数</string>
+
+    <string name="setting_schedule_name">课表名称</string>
+    <string name="setting_class_time">上课时间</string>
+    <string name="setting_term_start_date">学期开始日期</string>
+    <string name="setting_nodes">一天课程节数</string>
+    <string name="setting_weeks">学期周数</string>
+    <string name="setting_sunday_first">周日为每周第一天</string>
+    <string name="setting_show_sat">显示周六</string>
+    <string name="setting_show_sun">显示周日</string>
+    <string name="setting_show_time">在格子内显示上课时间</string>
+    <string name="setting_background">课程表背景</string>
+    <string name="setting_header_color">界面文字颜色</string>
+    <string name="setting_course_text_color">课程文字颜色</string>
+    <string name="setting_stroke_color">格子边框颜色</string>
+    <string name="setting_item_height">课程格子高度</string>
+    <string name="setting_item_alpha">课程格子不透明度</string>
+    <string name="setting_course_text_size">课程显示文字大小</string>
+    <string name="setting_show_other_week">显示非本周课程</string>
+
+    <string name="setting_widget_item_height">小部件格子高度</string>
+    <string name="setting_widget_item_alpha">小部件格子不透明度</string>
+    <string name="setting_widget_text_size">小部件显示文字大小</string>
+    <string name="setting_widget_header_color">小部件标题颜色</string>
+    <string name="setting_widget_course_text_color">小部件课程颜色</string>
+    <string name="setting_widget_stroke_color">小部件格子边框颜色</string>
+
+    <string name="setting_auto_check_update">自动检查更新</string>
+    <string name="setting_show_day_widget_bg">显示日视图背景</string>
+    <string name="setting_show_suda_life">显示侧栏「苏大生活」</string>
+    <string name="setting_setup_schedule">设置当前课表</string>
+    <string name="setting_day_night_theme">显示主题</string>
+
+    <!-- Today course widget -->
+    <string name="widget_no_course">你怎么知道我今天没课~\n\n¯\\_(ツ)_/¯</string>
+    <string name="widget_all_ended">今天没课咯~\n\n¯\\_(ツ)_/¯</string>
+    <string name="widget_no_location">无地点</string>
+    <string name="widget_remind_title">上课提醒</string>
+    <string name="widget_remind_action">我知道啦</string>
+    <string name="widget_location_label">地点：</string>
+
+    <!-- Splash permission dialog -->
+    <string name="widget_permission_title">为了保证小组件能够实时更新，需要您授予以下权限：\n自启动 + 电池优化白名单</string>
+    <string name="widget_permission_message">小组件需要在后台定时刷新课程数据，请授予相关权限以保证正常使用。\n\n由于作者家境并不富裕，只在小米手机上测试过（小米手机只能拉起电池优化白名单），其他手机品牌如果未成功拉起授权窗口还请手动打开。\n\n如果您不会打开，可以在浏览器搜索：您的手机品牌 + 怎么打开自启动权限/电池优化白名单。</string>
+    <string name="widget_permission_why">为什么</string>
+    <string name="widget_permission_go">去设置</string>
+    <string name="widget_permission_later">暂不开启</string>
+
+    <!-- Explanation sub-dialog -->
+    <string name="widget_permission_explanation">这是一款个人用爱发电开发的小软件，没有广告、没有付费、没有数据收集。个人开发者能力和财力有限，无法像大厂那样向手机厂商申请应用白名单，也付不起厂商的"保护费"。\n\n本来可以通过一些流氓手段保活（比如在屏幕上偷偷放一个1像素的透明窗口欺骗系统），但那样既耗电又不诚实，不符合极客精神。我选择直接向您说明原因，恳请手动授予权限，让小组件在后台安静运行。\n\n如果您不方便授予，App 也会自动切换到省电模式（手动点击打开 app 更新），不影响基本使用。</string>
+    <string name="widget_permission_got_it">我知道了</string>
+
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+
+    <string-array name="day_night_setting">
+        <item>浅色模式</item>
+        <item>深色模式</item>
+        <item>跟随系统</item>
+    </string-array>
+
+</resources>

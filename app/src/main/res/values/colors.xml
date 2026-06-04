@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Seed Color -->
+    <color name="seed">#C98294</color>
+
+    <!-- Legacy aliases for existing code references -->
+    <color name="colorPrimary">#C98294</color>
+    <color name="colorPrimaryDark">#A86B7B</color>
+    <color name="colorAccent">#C98294</color>
+
+    <color name="grey">#9aa3a3a3</color>
+    <color name="deep_grey">#9a505050</color>
+    <color name="nodeIndex">#00000000</color>
+    <color name="backgroundColor">#fafafa</color>
+
+    <color name="main_title_bg">#94ffffff</color>
+
+    <!-- Legacy color aliases for XML layouts -->
+    <color name="red">#E53935</color>
+    <color name="blue">#1E88E5</color>
+    <color name="pink">#D81B60</color>
+    <color name="lightBlue">#039BE5</color>
+    <color name="orange">#FB8C00</color>
+
+    <!-- Course Colors - Premium Muted Palette (16 colors) -->
+    <color name="course_red">#D4786E</color>
+    <color name="course_pink">#C98294</color>
+    <color name="course_blue">#719AC8</color>
+    <color name="course_teal">#519E91</color>
+    <color name="course_green">#6E9F6B</color>
+    <color name="course_purple">#937ABF</color>
+    <color name="course_orange">#E09E63</color>
+    <color name="course_deep_orange">#D47C5E</color>
+    <color name="course_indigo">#667AB3</color>
+    <color name="course_cyan">#5D9BA3</color>
+    <color name="course_amber">#C99A5E</color>
+    <color name="course_brown">#957F74</color>
+    <color name="course_lime">#93A35A</color>
+    <color name="course_light_blue">#7B9CB5</color>
+    <color name="course_ruri">#6080AB</color>
+    <color name="course_deep_purple">#8974A8</color>
+
+    <integer-array name="customizedColors">
+        <item>@color/course_red</item>
+        <item>@color/course_pink</item>
+        <item>@color/course_blue</item>
+        <item>@color/course_teal</item>
+        <item>@color/course_green</item>
+        <item>@color/course_purple</item>
+        <item>@color/course_orange</item>
+        <item>@color/course_deep_orange</item>
+        <item>@color/course_indigo</item>
+        <item>@color/course_cyan</item>
+        <item>@color/course_amber</item>
+        <item>@color/course_brown</item>
+        <item>@color/course_lime</item>
+        <item>@color/course_light_blue</item>
+        <item>@color/course_ruri</item>
+        <item>@color/course_deep_purple</item>
+    </integer-array>
+
+</resources>

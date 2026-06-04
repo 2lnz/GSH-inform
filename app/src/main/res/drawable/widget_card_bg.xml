@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Frosted glass background for 2x2 today widget -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="16dp" />
+    <gradient
+        android:startColor="#E0FFFFFF"
+        android:endColor="#C8FFFFFF"
+        android:angle="135" />
+    <stroke
+        android:width="0.5dp"
+        android:color="#80FFFFFF" />
+</shape>
