@@ -31,7 +31,7 @@ object AnnouncementManager {
 
     /** GitHub Pages 上公告 JSON 的地址 */
     private const val DEFAULT_JSON_URL =
-        "https://2lnz.github.io/GSH_GreatSchedule/announcement.json"
+        "https://2lnz.github.io/GSH_GreatSchedule/announcement/announcement.json"
 
     /** SharedPreferences 中存储已读 ID 集合的 key */
     private const val PREF_READ_IDS = "announcement_read_ids"
